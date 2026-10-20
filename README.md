@@ -1,6 +1,6 @@
-# MeshLink Operator Dashboard
+# meshlink Operator Dashboard
 
-A centralized dashboard for monitoring and managing multiple MeshLink broker nodes. Designed to run on the operator's machine and connect to broker nodes over Tailscale.
+A centralized dashboard for monitoring and managing multiple meshlink broker nodes. Designed to run on the operator's machine and connect to broker nodes over Tailscale.
 
 ```
 Operator Dashboard (port 4000)         Broker Nodes (port 3000 each)

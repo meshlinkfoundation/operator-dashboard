@@ -16,7 +16,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <div className="container flex h-14 items-center px-4">
           <Link href="/" className="flex items-center gap-2 mr-8">
             <Radio className="h-5 w-5 text-primary" />
-            <span className="font-semibold text-lg">MeshLink</span>
+            <span className="font-semibold text-lg">meshlink</span>
             <span className="text-xs text-muted-foreground font-medium">
               Operator
             </span>
