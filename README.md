@@ -2,6 +2,8 @@
 
 A centralized dashboard for monitoring and managing multiple meshlink broker nodes. Designed to run on the operator's machine and connect to broker nodes over Tailscale.
 
+You don't need this to run a node. Each node's own operator dashboard runs on its Pi at `http://<pi-lan-ip>:3000/admin`. This app is the optional multi-node setup: it only reaches nodes that have Tailscale installed on the Pi (see "Remote Management with Tailscale" in the gateway README).
+
 ```
 Operator Dashboard (port 4000)         Broker Nodes (port 3000 each)
 ┌──────────────────────────┐           ┌──────────────────┐
